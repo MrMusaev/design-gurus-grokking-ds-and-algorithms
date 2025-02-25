@@ -1,9 +1,6 @@
 class Solution:
     def reverseString(self, s):
-        stack = []
-
-        for char in s:
-            stack.append(char)
+        stack = list(s)
         
         reverse_s = ''
 
